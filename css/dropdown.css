@@ -4,7 +4,9 @@
     Description:
         Hyperlink in an unordered list
 */
-
+body {
+			padding: 5%;
+}
 ul{
     list-style-type: none; 
     color: blue;
