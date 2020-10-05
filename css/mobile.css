@@ -7,26 +7,36 @@
 
 ul{
     list-style-type: none; 
-    border: 3px solid navy;
+    border: 3px solid  hsla(212,100%,34%,0.8) ;
     border-radius: 10px;
-    color: blue;
+    color:rgb(2, 9, 17);
 }
 
 li:nth-child(odd){
-    background-color: antiquewhite;
+    background-color: aliceblue;
 }
 
 li:nth-child(even){
-    background-color: aliceblue;
+    background-color: hsla(212,100%,90%,0.8);
 }
 
 ul ul{
     display:none;
+    padding:5%;
 }
 a{
     text-decoration: none;
+     color:rgb(2, 9, 17);
 }
 
 ul li:hover ul{
     display: block;
+}
+
+img{
+  display: none;
+}
+
+ul ul>li{
+  padding: 2px 0px 2px 5px;
 }

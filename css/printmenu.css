@@ -13,3 +13,7 @@ body{
 body:after{
     content:'created by yz';
 }
+
+.links{
+  display: none;
+}
