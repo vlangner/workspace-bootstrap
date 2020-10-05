@@ -1,0 +1,169 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Drop Down Menus</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--   
+  <link rel="stylesheet" type="text/css" href="css/dropdown.css" media="screen and (min-width: 500px)">
+
+  <link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width: 500px)">
+
+  <link rel="stylesheet" type="text/css" href="css/printmenu.css" media="print">
+  -->
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <!--customize style-->
+  <style type="text/css">
+    .navbar {
+      margin-bottom: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <ul class="nav nav-pills nav-fill">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+  </ul>
+
+
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+        aria-expanded="false">Dropdown</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+  </ul>
+
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-primary">
+    <ul class="navbar-nav ">
+      <li class="nav-item mr-4"><a class="nav-link" href="/">HOME</a></li>
+      <li class="nav-item dropdown mr-4"><a class="nav-link dropdown-toggle" data-toggle="dropdown">FUTURE STUDENTS </a>
+        <ul class="dropdown-menu bg-secondary">
+          <li class="dropdown-item"><a class="nav-link" href="/admissions">Admissions</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/admissions/freshmanadmissions.dot">Freshman/Transfer
+              Admissions</a>
+          <li class="dropdown-item"><a class="nav-link" href="/graduate-admissions/index.dot">Graduate Admissions</a>
+          </li>
+          <li class="dropdown-item"><a class="nav-link" href="/admissions/concurrent-admissions.dot">Concurrent
+              Admissions</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/housing/">Housing</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/student-involvement/">Student Involvement</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/financialaid/">Financial Aid</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/admissions/apply-now.dot">Apply Now</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown mr-4"> <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">CURRENT STUDENTS
+        </a>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item"><a class="nav-link" href="/asc">Academic Success</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/financialaid">Financial Aid</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/housing">Housing</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/career-services">Career Services</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/help-desk">CSD Help Desk</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/wellness-center/index.dot">Wellness Center</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/bookstore/index.dot">Pacer Shoppe</a></li>
+
+        </ul>
+      </li>
+
+      <li class="nav-item dropdown mr-4"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> PARENTS
+        </a>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item"><a class="nav-link" href="/about-usc-aiken/">About USC Aiken</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/admissions">Admissions</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/admissions/justforparents">Just For Parents </a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/financialaid/">Financial Aid</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown mr-4"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">VISITORS
+        </a>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item"><a class="nav-link" href="/about-usc-aiken/">About USC Aiken</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="http://www.usca.edu/directories/driving2.html">Directions
+              to USC
+              Aiken</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/conted">Continuing Education</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/etherredge-center">The Etherredge Center</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="http://rpsec.usca.edu/">The Ruth Patrick Science
+              Center</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="http://rpsec.usca.edu/planetarium/">The DuPont
+              Planetarium</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="http://www.uscatix.com">USCA Convocation Center</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/admissions/visitusca.dot">Visit USC Aiken</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/wellness-center/index.dot">Wellness Center</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown mr-4"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">ACADEMICS
+        </a>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item"><a class="nav-link" href="/academic-affairs/">Academic Affairs</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/about-usc-aiken/majors-and-programs.dot">Majors and
+              Programs</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="/records/schedule-of-classes/index.dot">Course
+              Schedules</a></li>
+          <li class="dropdown-item"><a class="nav-link" href="http://library.usca.edu/">Library</a></li>
+        </ul>
+      </li>
+
+
+    </ul>
+
+
+  </nav>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

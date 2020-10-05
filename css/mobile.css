@@ -1,0 +1,34 @@
+/* 
+    Document   : mobile
+    Author     : Yilian Zhang
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+ul{
+    list-style-type: none; 
+    border: 3px solid navy;
+    border-radius: 10px;
+    color: blue;
+}
+
+li:nth-child(odd){
+    background-color: antiquewhite;
+}
+
+li:nth-child(even){
+    background-color: aliceblue;
+}
+
+ul ul{
+    display:none;
+}
+a{
+    text-decoration: none;
+}
+
+ul li:hover ul{
+    display: block;
+}
