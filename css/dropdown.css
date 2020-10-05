@@ -41,7 +41,7 @@ ul * li{
     display: block;
        
 }
-ul * li:hover{
+ul * li:hove{
   background: repeating-linear-gradient( to right, hsla(352,89%,81%,0.6),hsla(212,100%,34%,0.5) 10px);
 }
 
